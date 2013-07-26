@@ -12,17 +12,17 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*"] + Dir["vendor/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   
   s.add_dependency('railties', '>= 3.1.0')
-  s.add_dependency('coffee-script', '~> 2.2.0')
-  s.add_dependency('jquery-rails', '~> 2.2.0')
-  s.add_dependency('ejs', '~> 1.1.1')
+  s.add_dependency('coffee-script', '>= 2.2.0')
+  s.add_dependency('jquery-rails', '>= 2.2.0')
+  s.add_dependency('ejs', '>= 1.1.1')
 
-  s.add_development_dependency('rails', '~> 3.2.0')
+  s.add_development_dependency('rails', '>= 3.2.0')
   s.add_development_dependency('sqlite3')
   s.add_development_dependency('sass')
   s.add_development_dependency('uglifier')
-  s.add_development_dependency('mocha', '~> 0.14.0')
-  s.add_development_dependency('turn', '~> 0.8.3')
-  s.add_development_dependency('minitest', '~> 2.10.1')
+  s.add_development_dependency('mocha', '>= 0.14.0')
+  s.add_development_dependency('turn', '>= 0.8.3')
+  s.add_development_dependency('minitest', '>= 2.10.1')
   
   s.require_paths = ['lib']
 end
